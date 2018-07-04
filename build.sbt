@@ -5,7 +5,7 @@ lazy val root = (project in file(".")).
       organization := "me.nicofisi"
     )),
     name := "common-spigot-stuff",
-    version := "2.1.2",
+    version := "2.2",
 
     resolvers += "spigot-repo" at "https://hub.spigotmc.org/nexus/content/repositories/snapshots/",
 
