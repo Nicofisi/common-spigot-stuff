@@ -9,5 +9,5 @@ case class ReqHasPermission(permission: String) extends CRequirement {
     sender.hasPermission(permission)
 
   override def createErrorMessage(sender: CommandSender, action: String)(implicit info: PluginInfo): String =
-      s"&sYou need the &p$permission permission to $action"
+      s"&sYou need the &p$permission &spermission to &p$action"
 }
